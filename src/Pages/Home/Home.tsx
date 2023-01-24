@@ -10,8 +10,8 @@ export default function Home() {
       <Banner />
       <DropDownMenu />
       <section className="thumbnail-gallery">
-        {data.map(({ id, title }) => {
-          return <Thumbnail title={title} key={id} />;
+        {data.map(({ id, title, url }) => {
+          return <Thumbnail key={id} title={title} url={url} />;
         })}
       </section>
     </>
