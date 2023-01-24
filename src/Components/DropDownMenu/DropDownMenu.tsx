@@ -15,19 +15,19 @@ export default function DropDownMenu() {
       {toggle ? (
         <ul className="nav-list">
           <li>
-            <a href="#">
-              <span className="link-name">Work</span>
-            </a>
+            {/* <a href="#"> */}
+            <span className="link-name">Work</span>
+            {/* </a> */}
           </li>
           <li>
-            <a href="#">
-              <span className="link-name">Bio</span>
-            </a>
+            {/* <a href="#"> */}
+            <span className="link-name">Bio</span>
+            {/* </a> */}
           </li>
           <li>
-            <a href="#">
-              <span className="link-name">Contact</span>
-            </a>
+            {/* <a href="#"> */}
+            <span className="link-name">Contact</span>
+            {/* </a> */}
           </li>
         </ul>
       ) : (
