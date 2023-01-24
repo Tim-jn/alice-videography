@@ -6,7 +6,7 @@ export default function Banner() {
       <h1 className="banner-title">
         Alice J.
         <br />
-        Vidéography
+        Videography
       </h1>
     </div>
   );
