@@ -1,0 +1,30 @@
+@import "../../App.scss";
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  max-width: 480px;
+  max-height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  margin: 7.5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.thumbnail::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(218, 218, 218);
+}
+
+.thumbnail-title {
+  font-size: $h1-font-size;
+  z-index: 1;
+}
