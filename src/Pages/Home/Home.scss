@@ -1,11 +1,13 @@
 @import "../../App.scss";
 
 .thumbnail-gallery {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(2, 1fr) / auto-flow;
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
-  height: 480px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  max-width: 1440px;
   margin-top: 150px;
+  margin: 150px 7.5px 0px 7.5px;
 }
