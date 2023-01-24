@@ -1,6 +1,7 @@
 import "./DropDownMenu.scss";
 import { useState } from "react";
 import { pages } from "../../data/pages";
+import { Link } from "react-router-dom";
 
 export default function DropDownMenu() {
   const [toggle, setToggle] = useState(false);
@@ -17,16 +18,16 @@ export default function DropDownMenu() {
         <nav className="nav-list">
           <ul>
             <li>
-              <a href="/">
+              <Link to="/">
                 <span className="link-name">Home</span>
-              </a>
+              </Link>
             </li>
             {pages.map(({ id, title, url }) => {
               return (
                 <li key={id}>
-                  <a href={url}>
+                  <Link to={url}>
                     <span className="link-name">{title}</span>
-                  </a>
+                  </Link>
                 </li>
               );
             })}
