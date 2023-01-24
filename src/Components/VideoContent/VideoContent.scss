@@ -2,22 +2,15 @@
 
 .video-content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  margin: 0 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px;
 }
 
 .video-content .video-title {
-  margin-bottom: 40px;
-  text-align: center;
-}
-
-.video-content .media {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 
 .video-content iframe {
@@ -25,10 +18,14 @@
   width: 40%;
   height: 400px;
   min-width: 300px;
+  margin: 0 15px;
+}
+
+.video-content .video-text {
+  margin: 15px;
+  width: 50%;
 }
 
 .video-content .video-credits {
-  width: 50%;
   font-size: $p-font-size;
-  margin: 15px;
 }
