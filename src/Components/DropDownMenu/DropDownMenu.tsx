@@ -1,6 +1,6 @@
 import "./DropDownMenu.scss";
 import { useState } from "react";
-import { data } from "../../data/data";
+import { pages } from "../../data/pages";
 
 export default function DropDownMenu() {
   const [toggle, setToggle] = useState(false);
@@ -21,7 +21,7 @@ export default function DropDownMenu() {
                 <span className="link-name">Home</span>
               </a>
             </li>
-            {data.map(({ id, title, url }) => {
+            {pages.map(({ id, title, url }) => {
               return (
                 <li key={id}>
                   <a href={url}>
