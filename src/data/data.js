@@ -2,6 +2,7 @@ export const data = [
   {
     id: 1,
     title: "WORK",
+    url: "/work",
   },
   {
     id: 2,

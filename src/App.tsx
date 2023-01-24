@@ -1,15 +1,16 @@
 import "./App.scss";
-import Banner from "./Components/Banner/Banner";
-import DropDownMenu from "./Components/DropDownMenu/DropDownMenu";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
+import Work from "./Pages/Work/Work";
 
 function App() {
   return (
-    <main className="App">
-      <Banner />
-      <DropDownMenu />
-      <Home />
-    </main>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/work" element={<Work />} />
+      </Routes>
+    </Router>
   );
 }
 
