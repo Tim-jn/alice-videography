@@ -1,0 +1,63 @@
+@import "../../App.scss";
+
+.dropdown-button {
+  content: url("../../assets/DDButton.png");
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+
+// Closed sidebar
+
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: all 0.3s ease;
+  width: 0px;
+}
+
+// Active sidebar
+
+.sidebar-active {
+  transition: all 0.3s ease;
+  width: 300px;
+  background-color: $primary-color;
+  opacity: 0.9;
+}
+
+.sidebar-active .dropdown-button {
+  display: none;
+}
+
+.sidebar-active .close-button {
+  content: url("../../assets/close.svg");
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar-active .nav-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 40px;
+  align-items: left;
+}
+
+.sidebar-active .link-name {
+  color: $secondary-color;
+  font-size: $p-font-size;
+  text-transform: uppercase;
+}
+
+.sidebar-active li {
+  margin-bottom: 8px;
+}

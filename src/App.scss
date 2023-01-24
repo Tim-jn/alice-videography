@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Nixie+One&display=swap");
+
+// Colors
+
+$primary-color: #000000;
+$secondary-color: #ffffff;
+
+// Fonts specs
+
+$primary-font-fam: "Nixie One", cursive, sans-serif;
+
+$h1-font-size: 48px;
+$p-font-size: 20px;
+
+// Global styles
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $primary-font-fam;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  cursor: default;
+  margin: auto;
+}
