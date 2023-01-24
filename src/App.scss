@@ -10,7 +10,7 @@ $secondary-color: #ffffff;
 $primary-font-fam: "Nixie One", cursive, sans-serif;
 
 $h1-font-size: 48px;
-$p-font-size: 20px;
+$p-font-size: 22px;
 
 // Global styles
 
@@ -31,8 +31,9 @@ li {
 
 body {
   position: relative;
-  min-height: 100vh;
+  height: 100vh;
   width: 100%;
   cursor: default;
   margin: auto;
+  max-width: 1440px;
 }
