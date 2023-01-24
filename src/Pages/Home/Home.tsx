@@ -1,18 +1,19 @@
 import "./Home.scss";
 import Thumbnail from "../../Components/Thumbnail/Thumbnail";
+import Banner from "../../Components/Banner/Banner";
+import DropDownMenu from "../../Components/DropDownMenu/DropDownMenu";
 import { data } from "../../data/data";
-
-type DataProps = {
-  id: number;
-  title: string;
-};
 
 export default function Home() {
   return (
-    <section className="thumbnail-gallery">
-      {data.map(({ id, title }: DataProps) => {
-        return <Thumbnail title={title} />;
-      })}
-    </section>
+    <>
+      <Banner />
+      <DropDownMenu />
+      <section className="thumbnail-gallery">
+        {data.map(({ id, title }) => {
+          return <Thumbnail title={title} key={id} />;
+        })}
+      </section>
+    </>
   );
 }
