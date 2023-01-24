@@ -7,6 +7,7 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: 15px;
+  margin-bottom: 75px;
 }
 
 .video-content .video-title {
@@ -28,4 +29,14 @@
 
 .video-content .video-credits {
   font-size: $p-font-size;
+}
+
+@media screen and (max-width: 749px) {
+  .video-content iframe {
+    width: 100%;
+  }
+
+  .video-content .video-text {
+    width: 100%;
+  }
 }
