@@ -7,9 +7,11 @@ export const data = [
   {
     id: 2,
     title: "BIO",
+    url: "/bio",
   },
   {
     id: 3,
     title: "CONTACT",
+    url: "/contact",
   },
 ];
