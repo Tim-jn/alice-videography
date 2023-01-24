@@ -4,9 +4,9 @@ export default function Banner() {
   return (
     <div className="Banner">
       <h1 className="banner-title">
-        Alice J.
+        alice J.
         <br />
-        Videography
+        videography
       </h1>
     </div>
   );

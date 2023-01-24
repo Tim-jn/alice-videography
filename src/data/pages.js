@@ -1,17 +1,17 @@
 export const pages = [
   {
     id: 1,
-    title: "WORK",
+    title: "work",
     url: "/work",
   },
   {
     id: 2,
-    title: "BIO",
+    title: "bio",
     url: "/bio",
   },
   {
     id: 3,
-    title: "CONTACT",
+    title: "contact",
     url: "/contact",
   },
 ];
