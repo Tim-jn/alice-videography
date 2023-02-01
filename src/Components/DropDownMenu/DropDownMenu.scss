@@ -28,7 +28,7 @@
   transition: all 0.3s ease;
   width: 300px;
   background-color: $primary-color;
-  opacity: 0.9;
+  opacity: 0.95;
 }
 
 .sidebar-active .dropdown-button {
@@ -77,4 +77,12 @@
 
 .sidebar-active li {
   margin-bottom: 10px;
+}
+
+// mobile display
+
+@media screen and (max-width: 425px) {
+  .sidebar-active {
+    width: 100%;
+  }
 }
