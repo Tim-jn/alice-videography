@@ -9,6 +9,7 @@ export default function VideoContent({ title, url }: Props) {
   return (
     <div className="video-content">
       <iframe
+        loading="lazy"
         src={url}
         title={title}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen"
