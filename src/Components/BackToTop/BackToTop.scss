@@ -24,7 +24,15 @@
   padding-top: 3px;
 }
 
-.icon-style:hover {
-  background: $primary-color;
-  color: $secondary-color;
+.icon-style::before {
+  content: "";
+  background: url("../../assets/top-arrow.png");
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  height: 70%;
+  width: 100%;
+  background-position: 0% -75%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
