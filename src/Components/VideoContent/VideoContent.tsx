@@ -3,9 +3,10 @@ import "./VideoContent.scss";
 type Props = {
   title: string;
   url: string;
+  text: string[];
 };
 
-export default function VideoContent({ title, url }: Props) {
+export default function VideoContent({ title, url, text }: Props) {
   return (
     <div className="video-content">
       <iframe
@@ -17,10 +18,11 @@ export default function VideoContent({ title, url }: Props) {
       <div className="video-text">
         <h2 className="video-title">{title}</h2>
         <p className="video-credits">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus libero
-          ipsam nisi? Magni, asperiores voluptas eos laboriosam repellat
-          obcaecati inventore ut incidunt, tenetur, nisi velit laborum sequi
-          consectetur doloribus unde?
+          {text[0]}
+          <br />
+          {text[1]}
+          <br />
+          {text[2]}
         </p>
       </div>
     </div>

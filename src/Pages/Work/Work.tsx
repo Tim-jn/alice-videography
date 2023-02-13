@@ -13,8 +13,8 @@ export default function Work() {
       <DropDownMenu />
       <BackToTop />
       <section className="work-content">
-        {work.map(({ id, title, url }) => {
-          return <VideoContent key={id} title={title} url={url} />;
+        {work.map(({ id, title, url, text }) => {
+          return <VideoContent key={id} title={title} url={url} text={text} />;
         })}
       </section>
       <Footer />
