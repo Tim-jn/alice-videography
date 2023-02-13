@@ -13,8 +13,15 @@ export default function Home() {
       <DropDownMenu />
       <BackToTop />
       <section className="thumbnail-gallery">
-        {pages.map(({ id, title, url }) => {
-          return <Thumbnail key={id} title={title} url={url} />;
+        {pages.map(({ id, title, url, background }) => {
+          return (
+            <Thumbnail
+              key={id}
+              title={title}
+              url={url}
+              background={background}
+            />
+          );
         })}
       </section>
       <Footer />
