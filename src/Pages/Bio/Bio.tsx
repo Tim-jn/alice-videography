@@ -18,7 +18,7 @@ export default function Bio() {
         I thrive through long terms collaborations, with bands such as Young
         Enough or Pool Party Chicks. If you're looking for a young motivated
         (queer) girl to help you build your visual identity, just contact me!
-        I'd be happy to chat 🙂
+        I'd be happy to chat 🌸
         <br />
         <br />
         Hello! Moi, c'est Alice. J'ai commencé à travailler dans la réalisation
@@ -33,7 +33,7 @@ export default function Bio() {
         des groupes comme Young Enough ou Pool Party Chicks. Si vous êtes à la
         recherche d'une personne jeune (queer) et motivée pour vous aider à
         construire votre identité visuelle, contactez-moi ! Je serai heureuse
-        d'en discuter 🙂
+        d'en discuter 🌸
       </section>
       <Footer />
     </main>

@@ -11,12 +11,13 @@
   margin: auto;
   max-width: 600px;
   font-size: $p-font-size;
-  padding: 150px 15px 120px 15px;
+  padding: 120px 15px 120px 15px;
   line-height: 30px;
 }
 
 .contact-links {
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   font-size: 0px;
   display: flex;
   justify-content: center;
@@ -25,12 +26,12 @@
 
 .instagram {
   content: url("../../assets/instagram.png");
-  height: 40px;
-  margin: 10px;
+  height: 60px;
+  margin-right: 20px;
 }
 
 .facebook {
   content: url("../../assets/facebook.png");
-  height: 40px;
-  margin: 10px;
+  height: 60px;
+  margin-left: 20px;
 }

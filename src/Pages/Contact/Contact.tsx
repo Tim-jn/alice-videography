@@ -10,14 +10,10 @@ export default function Contact() {
       <DropDownMenu />
       <section className="contact-content">
         For all inquiries, you can reach me in DM via my socials, or by mail at
-        alicej.pro@hotmail.com Pour toute demande, vous pouvez me joindre en DM
-        sur mes réseaux, ou par mail à alicej.pro@hotmail.com <br />
+        alicej.pro@hotmail.com
         <br />
-        I'm based in Belgium but open to work with clients from all over Europe !
-        <br />
-        <br />
-        Je suis basée en Belgique mais ouverte à l'idée de travailler avec des
-        client de tous coins de l'Europe !
+        I'm based in Belgium but open to work with clients from all over Europe
+        !
         <div className="contact-links">
           <a className="instagram" href="https://www.instagram.com/jnmrtmedia/">
             Instagram
@@ -26,6 +22,11 @@ export default function Contact() {
             Facebook
           </a>
         </div>
+        Pour toute demande, vous pouvez me joindre en DM sur mes réseaux, ou par
+        mail à alicej.pro@hotmail.com
+        <br />
+        Je suis basée en Belgique mais ouverte à l'idée de travailler avec des
+        client de tous coins de l'Europe !
       </section>
       <Footer />
     </main>
