@@ -83,4 +83,34 @@ export const work = [
       "Written by : alice j. & Everlords",
     ],
   },
+  {
+    id: 11,
+    title: "Hidden Path - Untrust from Within (Official Music Video)",
+    url: "https://www.youtube.com//embed/dijl7L68VHI",
+    text: [
+      "Directed by alice j.",
+      "DOP : alice j.",
+      "Written by : alice j. & Hidden Path",
+    ],
+  },
+  {
+    id: 12,
+    title: "Pool Party Chicks - Keep Waiting",
+    url: "https://www.youtube.com//embed/mqaB5ktjnB4",
+    text: [
+      "Directed by alice j.",
+      "DOP : alice j.",
+      "Written by : alice j. & Pool Party Chicks",
+    ],
+  },
+  {
+    id: 13,
+    title: "YOUNG ENOUGH - 'Vanish' (Official Music Video)",
+    url: "https://www.youtube.com//embed/eMXHZngDee0",
+    text: [
+      "Directed by alice j.",
+      "DOP : alice j.",
+      "Written by : Young Enough",
+    ],
+  },
 ];

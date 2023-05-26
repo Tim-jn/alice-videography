@@ -1,1 +1,36 @@
 @import "../../App.scss";
+
+.contact {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.contact-content {
+  margin: auto;
+  max-width: 600px;
+  font-size: $p-font-size;
+  padding: 150px 15px 120px 15px;
+  line-height: 30px;
+}
+
+.contact-links {
+  margin-top: 50px;
+  font-size: 0px;
+  display: flex;
+  justify-content: center;
+  opacity: 0.8;
+}
+
+.instagram {
+  content: url("../../assets/instagram.png");
+  height: 40px;
+  margin: 10px;
+}
+
+.facebook {
+  content: url("../../assets/facebook.png");
+  height: 40px;
+  margin: 10px;
+}

@@ -1,1 +1,15 @@
 @import "../../App.scss";
+
+.bio {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .bio-content {
+    margin: auto;
+    font-size: $p-font-size;
+    padding: 150px 15px 120px 15px;
+    line-height: 30px;
+  }

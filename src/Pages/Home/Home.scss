@@ -1,5 +1,12 @@
 @import "../../App.scss";
 
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
 .thumbnail-gallery {
   display: flex;
   flex-direction: row;
@@ -8,5 +15,5 @@
   align-items: center;
   max-width: 1440px;
   margin-top: 150px;
-  margin: 150px 7.5px 75px 7.5px;
+  margin: 100px 7.5px 100px 7.5px;
 }
