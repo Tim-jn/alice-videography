@@ -1,3 +1,4 @@
+import BackToTop from "../../Components/BackToTop/BackToTop";
 import Banner from "../../Components/Banner/Banner";
 import DropDownMenu from "../../Components/DropDownMenu/DropDownMenu";
 import Footer from "../../Components/Footer/Footer";
@@ -8,6 +9,7 @@ export default function Bio() {
     <main className="bio">
       <Banner />
       <DropDownMenu />
+      <BackToTop />
       <section className="bio-content">
         Hi there! I'm Alice. I've started working in videography in 2015 while
         studying Performing Arts at uLiège. I'm a video geek and basically

@@ -1,6 +1,6 @@
-import work from "../assets/work.png";
-import bio from "../assets/bio.png";
-import contact from "../assets/contact.png";
+import work from "../assets/work.webp";
+import bio from "../assets/bio.webp";
+import contact from "../assets/contact.webp";
 
 export const pages = [
   {
