@@ -24,7 +24,7 @@ export default function BackToTop() {
   return (
     <div className="top-to-btm">
       {showTopBtn && (
-        <div className="icon-position icon-style" onClick={goToTop}>
+        <div className="icon-position icon-style" onClick={goToTop}>↑
         </div>
       )}
     </div>

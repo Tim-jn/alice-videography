@@ -6,35 +6,21 @@
 
 .icon-position {
   position: fixed;
-  bottom: 40px;
-  right: 30px;
+  bottom: 6%;
+  right: 4%;
   z-index: 20;
 }
 
 .icon-style {
-  background-color: lightgray;
+  background-color: transparent;
+  border: 2px solid rgba(0, 0, 0, .6);
   color: $primary-color;
-  border-radius: 2px;
-  height: 45px;
-  width: 40px;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-size: 22px;
+  font-size: 23px;
   text-align: center;
-  padding-top: 3px;
-  opacity: 0.7;
-}
-
-
-.icon-style::before {
-  content: "";
-  background: url("../../assets/top-arrow.png");
-  position: absolute;
-  bottom: 10px;
-  left: 0;
-  height: 70%;
-  width: 100%;
-  background-position: 0% -75%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-weight: bolder;
 }
