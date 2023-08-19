@@ -12,7 +12,7 @@ export const work = [
     text: [
       "Directed by alice j.",
       "DOP : alice j.",
-      "Written by : Eslo & Fazé]",
+      "Written by : Eslo & Fazé",
     ],
   },
   {
