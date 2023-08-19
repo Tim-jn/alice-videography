@@ -63,18 +63,6 @@ export const work = [
   },
   {
     id: 8,
-    title: "Ocean Encounters - Fanatical",
-    url: "https://www.youtube.com//embed/6rszXiooIn8",
-    text: ["Directed by alice j.", "DOP : alice j."],
-  },
-  {
-    id: 9,
-    title: "Ocean Encounters - Potential",
-    url: "https://www.youtube.com//embed/zVPKwGxeM6g",
-    text: ["Directed by alice j.", "DOP : alice j."],
-  },
-  {
-    id: 10,
     title: "Get Rid Of Myself (official video)",
     url: "https://www.youtube.com//embed/Y4CVCUxFpjQ",
     text: [
@@ -84,7 +72,7 @@ export const work = [
     ],
   },
   {
-    id: 11,
+    id: 9,
     title: "Hidden Path - Untrust from Within (Official Music Video)",
     url: "https://www.youtube.com//embed/dijl7L68VHI",
     text: [
@@ -94,7 +82,7 @@ export const work = [
     ],
   },
   {
-    id: 12,
+    id: 10,
     title: "Pool Party Chicks - Keep Waiting",
     url: "https://www.youtube.com//embed/mqaB5ktjnB4",
     text: [
@@ -104,7 +92,7 @@ export const work = [
     ],
   },
   {
-    id: 13,
+    id: 11,
     title: "YOUNG ENOUGH - 'Vanish' (Official Music Video)",
     url: "https://www.youtube.com//embed/eMXHZngDee0",
     text: [
