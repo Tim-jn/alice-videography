@@ -118,4 +118,5 @@ export const work = [
       "Directed by alice j.",
       "DOP : alice j.",
     ],
-  }
+  },
+]
