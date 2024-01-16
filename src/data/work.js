@@ -113,7 +113,7 @@ export const work = [
   {
     id: 13,
     title: "SKND - Avalance (Official music video)",
-    url: "https://youtube.com//embed/glGx8mFezyo",
+    url: "https://www.youtube.com/embed/glGx8mFezyo?si=C5y8CuK07j6jaCvH",
     text: [
       "Directed by alice j.",
       "DOP : alice j.",
