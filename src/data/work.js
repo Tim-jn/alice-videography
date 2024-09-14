@@ -112,7 +112,7 @@ export const work = [
   },
   {
     id: 13,
-    title: "SKND - Avalance (Official music video)",
+    title: "SKND - Avalanche (Official music video)",
     url: "https://www.youtube.com//embed/glGx8mFezyo",
     text: [
       "Directed by alice j.",
@@ -121,7 +121,7 @@ export const work = [
   },
   {
     id: 14,
-    title: "You Nervous ? - Trapped Inside (Official music video)",
+    title: "You Nervous? - Trapped Inside (Official music video)",
     url: "https://www.youtube.com/embed/p-8xAOyX5tU?si=vnIsy-W8lLzX-lu_",
     text: [
       "Directed by alice j.",
