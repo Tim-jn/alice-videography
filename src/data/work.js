@@ -119,4 +119,14 @@ export const work = [
       "DOP : alice j.",
     ],
   },
+  {
+    id: 14,
+    title: "You Nervous ? - Trapped Inside (Official music video)",
+    url: "https://www.youtube.com/embed/p-8xAOyX5tU?si=vnIsy-W8lLzX-lu_",
+    text: [
+      "Directed by alice j.",
+      "DOP : alice j.",
+      "Written by : alice j. & You Nervous",
+    ],
+  },
 ]
