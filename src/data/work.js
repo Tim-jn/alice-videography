@@ -84,7 +84,7 @@ export const work = [
   {
     id: 10,
     title: "Pool Party Chicks - Keep Waiting",
-    url: "https://www.youtube.com//embed/mqaB5ktjnB4",
+    url: "https://www.youtube.com/embed/qDJpzx0ApO8?si=usIMcrmZmh98Rr7V",
     text: [
       "Music video directed by alice j.",
       "DOP : alice j.",
