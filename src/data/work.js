@@ -121,7 +121,15 @@ export const work = [
   },
   {
        id: 14,
-    title: "Alcatraz Metal Festival - aftermovie day 3 (11.08.24)",
+    title: "Live show aftermovie w/ Ocean Encounters (2024)",
+    url: "https://www.youtube.com/embed/d6ul1rMYD-8?si=8nHEY32agGR6oTiv",
+    text: [
+      "Aftermovie filmed & edited by alice j.",
+    ],
+  },
+  {
+       id: 15,
+    title: "Alcatraz Metal Festival '24 - aftermovie day 3 (11.08.24)",
     url: "https://www.youtube.com/embed/DuXrZQe2I_8?si=MgKcY6jKBap3Soky",
     text: [
       "Aftermovie edited by alice j.",
@@ -129,7 +137,15 @@ export const work = [
     ],
   },
   {
-    id: 15,
+        id: 16,
+    title: "Fiesta City '24 aftermovie w/ Olive",
+    url: "https://www.youtube.com/embed/yKQgUMr2OEM?si=slY-kkpyjKslOe9D",
+    text: [
+      "Aftermovie filmed & edited by alice j.",
+    ],
+  },
+  {
+    id: 17,
     title: "You Nervous? - Trapped Inside (Official music video)",
     url: "https://www.youtube.com/embed/p-8xAOyX5tU?si=vnIsy-W8lLzX-lu_",
     text: [
