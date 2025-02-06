@@ -15,11 +15,12 @@ export default function Bio() {
         studying Performing Arts at uLiège. I'm a video geek and basically
         self-taught - I love to constantly discover new things I can do with my
         gear and new ways to express myself through my work. I love challenges
-        and creative ideas! I've centered my work around music videos since 2022
-        but I also do corporate, after movies and editing work. You can see that
+        and creative ideas! Since 2022 I've centered my work around music videos
+        and after movies but I also do corporate and editing work. You can see that
         I thrive through long terms collaborations, with bands such as Young
-        Enough or Pool Party Chicks. If you're looking for a young motivated
-        (queer) girl to help you build your visual identity, just contact me!
+        Enough, Pool Party Chicks or Alcatraz Festival (BE). If you're looking for 
+        a young motivated (queer) girl to help you build your visual identity, just 
+        contact me!
         I'd be happy to chat 🌸
         <br />
         <br />
@@ -28,14 +29,14 @@ export default function Bio() {
         nerd de la vidéo et j'ai appris principalement par moi-même - j'aime
         découvrir constamment de nouvelles choses et possibilités pour
         m'exprimer à travers mon travail. J'adore le challenge et les idées
-        novatrices! J'ai recentré mon travail autour des clips musicaux depuis
-        2022, mais je réalise également du corporate, des after movies et du
+        novatrices! Depuis 2022, ai recentré mon travail autour des clips musicaux, 
+        after movies, mais je réalise également du corporate et du
         travail de montage. Comme vous pouvez remarquer, je m'épanouis
         particulièrement à travers des collaborations sur le long terme, avec
-        des groupes comme Young Enough ou Pool Party Chicks. Si vous êtes à la
-        recherche d'une personne jeune (queer) et motivée pour vous aider à
-        construire votre identité visuelle, contactez-moi ! Je serai heureuse
-        d'en discuter 🌸
+        des groupes comme Young Enough ou Pool Party Chicks ou encore au festival 
+        Alcatraz (BE). Si vous êtes à la recherche d'une personne jeune (queer) 
+        et motivée pour vous aider à construire votre identité visuelle, 
+        contactez-moi ! Je serai heureuse d'en discuter avec vous 🌸
       </section>
       <Footer />
     </main>
