@@ -103,6 +103,26 @@ export const work = [
   },
    {
     id: 12,
+    title: "MR.FARTFACE - GUTS & NOISE (OFFICIAL VIDEO)",
+    url: "https://www.youtube.com/embed/EQ2yu8gKxBA?si=BVSzPUqJm34Hahno",
+    text: [
+      "Music video directed by alice j.",
+      "DOP : alice j.",
+      "Written by : MR.FARTFACE",
+    ],
+  },
+   {
+    id: 13,
+    title: "MR.FARTFACE - MY WAY (OFFICIAL VIDEO)",
+    url: "https://www.youtube.com/embed/hvHd-JqmmB0?si=WilJTIWR2UcBpfNe",
+    text: [
+      "Music video directed by alice j.",
+      "DOP : alice j.",
+      "Written by : MR.FARTFACE",
+    ],
+  },
+   {
+    id: 14,
     title: "Pool Party Chicks - Never Better On Your Own (Official Music Video)",
     url: "https://www.youtube.com//embed/Mx68jAZnsak",
     text: [
@@ -111,7 +131,7 @@ export const work = [
     ],
   },
   {
-    id: 13,
+    id: 15,
     title: "SKND - Avalanche (Official music video)",
     url: "https://www.youtube.com//embed/glGx8mFezyo",
     text: [
@@ -120,7 +140,7 @@ export const work = [
     ],
   },
   {
-       id: 14,
+       id: 16,
     title: "Live show aftermovie w/ Ocean Encounters (2024)",
     url: "https://www.youtube.com/embed/d6ul1rMYD-8?si=8nHEY32agGR6oTiv",
     text: [
@@ -128,7 +148,7 @@ export const work = [
     ],
   },
   {
-       id: 15,
+       id: 17,
     title: "Alcatraz Metal Festival '24 - aftermovie day 3 (11.08.24)",
     url: "https://www.youtube.com/embed/DuXrZQe2I_8?si=MgKcY6jKBap3Soky",
     text: [
@@ -137,7 +157,7 @@ export const work = [
     ],
   },
   {
-        id: 16,
+        id: 18,
     title: "Fiesta City '24 aftermovie w/ Olive",
     url: "https://www.youtube.com/embed/yKQgUMr2OEM?si=slY-kkpyjKslOe9D",
     text: [
@@ -145,7 +165,7 @@ export const work = [
     ],
   },
   {
-    id: 17,
+    id: 19,
     title: "You Nervous? - Trapped Inside (Official music video)",
     url: "https://www.youtube.com/embed/p-8xAOyX5tU?si=vnIsy-W8lLzX-lu_",
     text: [
