@@ -176,8 +176,7 @@ export const work = [
   },
    {
     id: 20,
-    title: "OLIVE - DÉPARTS ET ARRIVÉES (Clip Officiel)
-",
+    title: "OLIVE - DÉPARTS ET ARRIVÉES (Clip Officiel)",
     url: "https://www.youtube.com/embed/AAyGI3klE5o?si=45S-fSwcylbSD53j",
     text: [
       "Music video directed by alice j.",
