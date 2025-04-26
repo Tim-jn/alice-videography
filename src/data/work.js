@@ -182,4 +182,4 @@ export const work = [
       "Music video directed by alice j.",
       "DOP : alice j.",
       "Written by : alice j. & OLIVE",
-]
+  ]
