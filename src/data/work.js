@@ -191,8 +191,7 @@ export const work = [
     text: [
       "Promo clip directed by Jean-Mathias Pondant",
       "DOP : alice j.",
-      "Editing : alice j.",
-      "Sound : Zakaria Kadri",
+      "Editing & colorgrading : alice j.",
       "Written by : Antonin Victor Seron",
      ],
    },
