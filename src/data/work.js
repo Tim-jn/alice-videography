@@ -184,4 +184,16 @@ export const work = [
       "Written by : alice j. & OLIVE",
      ],
    },
+    {
+    id: 21,
+    title: "Festival La ReA 2025 - Panique au Bureau (capsule promo)",
+    url: "https://www.youtube.com/embed/IzbaTf34msE?si=R_YOxQYhDiE5ENbX",
+    text: [
+      "Promo clip directed by Jean-Mathias Pondant",
+      "DOP : alice j.",
+      "Editing : alice j.",
+      "Sound : Zakaria Kadri",
+      "Written by : Antonin Victor Seron",
+     ],
+   },
  ]
