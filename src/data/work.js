@@ -149,8 +149,8 @@ export const work = [
   },
   {
        id: 17,
-    title: "Alcatraz Metal Festival '24 - aftermovie day 3 (11.08.24)",
-    url: "https://www.youtube.com/embed/DuXrZQe2I_8?si=MgKcY6jKBap3Soky",
+    title: "Alcatraz Metal Festival '24 - final aftermovie",
+    url: "https://www.youtube.com/embed/lq4S936gB54?si=ZS8iXKDK3fsua_dm",
     text: [
       "Aftermovie edited by alice j.",
       "Footage : Helmert Decavele (drone), Lucas Dewulf (360 pit), Matt Jarvis, Senne Krijnen, Reinout Roose",
