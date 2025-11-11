@@ -4,6 +4,7 @@ export const work = [
     title: 'YOUNG ENOUGH - "HumanVirus" (Official Music Video)',
     url: "https://www.youtube.com/embed/b-OYZ2c9tiE",
     text: ["Music video directed by alice j.", "DOP : alice j.", "Written by : alice j."],
+    category: "music-video",
   },
   {
     id: 2,
@@ -14,12 +15,14 @@ export const work = [
       "DOP : alice j.",
       "Written by : Eslo & Fazé",
     ],
+    category: "music-video",
   },
   {
     id: 3,
     title: 'YOUNG ENOUGH - "I Want My K7s Back" (Official Music Video)',
     url: "https://www.youtube.com/embed/HI8Jphj-bsI",
     text: ["Music video directed by alice j.", "DOP : alice j."],
+    category: "music-video",
   },
   {
     id: 4,
@@ -30,6 +33,7 @@ export const work = [
       "DOP : alice j.",
       "Written by : The Lucky Trolls",
     ],
+    category: "music-video",
   },
   {
     id: 5,
@@ -40,6 +44,7 @@ export const work = [
       "DOP : alice j.",
       "Written by : alice j. & Young Enough",
     ],
+    category: "music-video",
   },
   {
     id: 6,
@@ -50,6 +55,7 @@ export const work = [
       "DOP : alice j.",
       "Written by : Mr.Fartface",
     ],
+    category: "music-video",
   },
   {
     id: 7,
@@ -60,6 +66,7 @@ export const work = [
       "DOP : alice j.",
       "Written by : alice j. & Pool Party Chicks",
     ],
+    category: "music-video",
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ export const work = [
       "DOP : alice j.",
       "Written by : alice j. & Everlords",
     ],
+    category: "music-video",
   },
   {
     id: 9,
@@ -80,6 +88,7 @@ export const work = [
       "DOP : alice j.",
       "Written by : alice j. & Hidden Path",
     ],
+    category: "music-video",
   },
   {
     id: 10,
@@ -90,6 +99,7 @@ export const work = [
       "DOP : alice j.",
       "Written by : alice j. & Pool Party Chicks",
     ],
+    category: "music-video",
   },
   {
     id: 11,
@@ -100,6 +110,7 @@ export const work = [
       "DOP : alice j.",
       "Written by : Young Enough",
     ],
+    category: "music-video",
   },
    {
     id: 12,
@@ -110,6 +121,7 @@ export const work = [
       "DOP : alice j.",
       "Written by : MR.FARTFACE",
     ],
+    category: "music-video",
   },
    {
     id: 13,
@@ -120,6 +132,7 @@ export const work = [
       "DOP : alice j.",
       "Written by : MR.FARTFACE",
     ],
+    category: "music-video",
   },
    {
     id: 14,
@@ -129,6 +142,7 @@ export const work = [
       "Music video directed by alice j.",
       "DOP : alice j.",
     ],
+    category: "music-video",
   },
   {
     id: 15,
@@ -138,6 +152,7 @@ export const work = [
       "Music video directed by alice j.",
       "DOP : alice j.",
     ],
+    category: "music-video",
   },
   {
        id: 16,
@@ -146,6 +161,7 @@ export const work = [
     text: [
       "Aftermovie filmed & edited by alice j.",
     ],
+    category: "aftermovie",
   },
   {
        id: 17,
@@ -155,6 +171,7 @@ export const work = [
       "Aftermovie edited by alice j.",
       "Footage : Helmert Decavele (drone), Lucas Dewulf (360 pit), Matt Jarvis, Senne Krijnen, Reinout Roose",
     ],
+    category: "aftermovie",
   },
   {
         id: 18,
@@ -163,6 +180,7 @@ export const work = [
     text: [
       "Aftermovie filmed & edited by alice j.",
     ],
+    category: "aftermovie",
   },
   {
     id: 19,
@@ -173,6 +191,7 @@ export const work = [
       "DOP : alice j.",
       "Written by : alice j. & You Nervous",
     ],
+    category: "music-video",
   },
    {
     id: 20,
@@ -183,6 +202,7 @@ export const work = [
       "DOP : alice j.",
       "Written by : alice j. & OLIVE",
      ],
+    category: "music-video",
    },
     {
     id: 21,
@@ -194,5 +214,6 @@ export const work = [
       "Editing & colorgrading : alice j.",
       "Written by : Antonin Victor Seron",
      ],
+    category: "promo",
    },
  ]
