@@ -2,15 +2,23 @@ import BackToTop from "../../Components/BackToTop/BackToTop";
 import Banner from "../../Components/Banner/Banner";
 import DropDownMenu from "../../Components/DropDownMenu/DropDownMenu";
 import Footer from "../../Components/Footer/Footer";
+import SEO from "../../Components/SEO/SEO";
+import SkipLink from "../../Components/SkipLink/SkipLink";
 import "./Bio.scss";
 
 export default function Bio() {
   return (
     <main className="bio">
+      <SkipLink />
+      <SEO
+        title="Bio"
+        description="Meet Alice J., a self-taught videographer specializing in music videos and creative content. Based in Belgium, working with clients across Europe since 2015."
+        keywords="about alice j, videographer bio, Belgium video artist, queer videographer, creative director"
+      />
       <Banner />
       <DropDownMenu />
       <BackToTop />
-      <section className="bio-content">
+      <section id="main-content" className="bio-content">
         Hi there! I'm Alice. I've started working in videography in 2015 while
         studying Performing Arts at uLiège. I'm a video geek and basically
         self-taught - I love to constantly discover new things I can do with my

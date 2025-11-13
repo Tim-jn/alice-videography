@@ -1,6 +1,6 @@
 .video-filter {
   width: 100%;
-  padding: 2rem 0 1.5rem 0;
+  padding: 3rem 0 0 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +42,7 @@
 
 @media (max-width: 768px) {
   .video-filter {
-    padding: 1.5rem 1rem;
+    padding: 3rem 2rem;
 
     &__buttons {
       gap: 0.75rem;

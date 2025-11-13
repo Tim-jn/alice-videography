@@ -10,7 +10,12 @@ type Props = {
 export default function Thumbnail({ title, url, background }: Props) {
   return (
     <Link className="thumbnail" to={url}>
-      <img src={background} alt={title} />
+      <img 
+        src={background} 
+        alt={title}
+        loading="lazy"
+        decoding="async"
+      />
       <h2 className="thumbnail-title">{title}</h2>
     </Link>
   );

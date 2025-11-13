@@ -12,10 +12,19 @@ export default function DropDownMenu() {
 
   return (
     <div className={!toggle ? "sidebar" : "sidebar sidebar-active"}>
-      <div className="dropdown-button" onClick={toggleSidebar}></div>
-      <div className="close-button" onClick={toggleSidebar}></div>
+      <button 
+        className="dropdown-button" 
+        onClick={toggleSidebar}
+        aria-label="Open navigation menu"
+        aria-expanded={toggle}
+      ></button>
+      <button 
+        className="close-button" 
+        onClick={toggleSidebar}
+        aria-label="Close navigation menu"
+      ></button>
       {toggle ? (
-        <nav className="nav-list">
+        <nav className="nav-list" aria-label="Main navigation">
           <ul>
             <li>
               <Link to="/">

@@ -24,7 +24,8 @@
   font-size: 23px;
   text-align: center;
   font-weight: bolder;
-  
+  padding-bottom: 2px;
+
   &:hover {
     transform: translateY(-5px) scale(1.1);
     background-color: rgba(0, 0, 0, 0.8);

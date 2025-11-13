@@ -24,8 +24,14 @@ export default function BackToTop() {
   return (
     <div className="top-to-btm">
       {showTopBtn && (
-        <div className="icon-position icon-style" onClick={goToTop}>↑
-        </div>
+        <button 
+          className="icon-position icon-style" 
+          onClick={goToTop}
+          aria-label="Scroll back to top of page"
+          title="Back to top"
+        >
+          ↑
+        </button>
       )}
     </div>
   );
