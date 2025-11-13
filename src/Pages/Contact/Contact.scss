@@ -21,15 +21,64 @@
   font-size: 0px;
   display: flex;
   justify-content: center;
-  opacity: 0.8;
+  gap: 40px;
+}
+
+.instagram,
+.facebook {
+  display: inline-block;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+  filter: grayscale(0%);
+  transform: scale(1);
+  
+  &:hover {
+    opacity: 1;
+    transform: scale(1.15) rotate(5deg);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  }
+  
+  &:active {
+    transform: scale(0.95);
+  }
 }
 
 .instagram {
   content: url("../../assets/instagram.svg");
-  margin-right: 20px;
+  animation: fadeInLeft 0.6s ease-out;
+  
+  &:hover {
+    filter: drop-shadow(0 4px 12px rgba(225, 48, 108, 0.4));
+  }
 }
 
 .facebook {
   content: url("../../assets/facebook.svg");
-  margin-left: 20px;
+  animation: fadeInRight 0.6s ease-out;
+  
+  &:hover {
+    filter: drop-shadow(0 4px 12px rgba(24, 119, 242, 0.4));
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 0.7;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 0.7;
+    transform: translateX(0);
+  }
 }

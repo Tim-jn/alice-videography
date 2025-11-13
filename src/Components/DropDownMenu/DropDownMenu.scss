@@ -8,6 +8,28 @@
   height: 35px;
   width: 35px;
   cursor: pointer;
+  transition: all 0.3s ease;
+  animation: slideInLeft 0.5s ease-out;
+  
+  &:hover {
+    transform: scale(1.15) rotate(-10deg);
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+  }
+  
+  &:active {
+    transform: scale(0.9);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 // Closed sidebar
@@ -42,6 +64,15 @@
   top: 8px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  
+  &:hover {
+    transform: scale(1.2) rotate(90deg);
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.3));
+  }
+  
+  &:active {
+    transform: scale(0.9) rotate(90deg);
+  }
 }
 
 .sidebar-active .nav-list {
