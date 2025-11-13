@@ -9,14 +9,14 @@
   cursor: pointer;
   transition: all 0.3s ease;
   animation: slideInLeft 0.5s ease-out;
-  background: url("../../assets/DDButton.png") no-repeat center;
-  background-size: contain;
+  background: #fff url("../../assets/DDButton.png") no-repeat center;
+  background-size: cover;
   border: none;
   padding: 0;
-  
+  border-radius: 50%;
+
   &:hover {
-    transform: scale(1.15) rotate(-10deg);
-    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3));
+    transform: scale(1.15);
   }
   
   &:active {
