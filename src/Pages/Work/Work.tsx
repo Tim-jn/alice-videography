@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import BackToTop from "../../Components/BackToTop/BackToTop";
 import Banner from "../../Components/Banner/Banner";
 import DropDownMenu from "../../Components/DropDownMenu/DropDownMenu";
@@ -8,8 +8,19 @@ import VideoFilter from "../../Components/VideoFilter/VideoFilter";
 import { work } from "../../data/work";
 import "./Work.scss";
 
+const FILTER_STORAGE_KEY = "alice-videography-filter";
+
 export default function Work() {
-  const [selectedCategory, setSelectedCategory] = useState("all");
+  // Récupérer le filtre sauvegardé ou utiliser "all" par défaut
+  const [selectedCategory, setSelectedCategory] = useState(() => {
+    const savedFilter = localStorage.getItem(FILTER_STORAGE_KEY);
+    return savedFilter || "all";
+  });
+
+  // Sauvegarder le filtre dans le localStorage à chaque changement
+  useEffect(() => {
+    localStorage.setItem(FILTER_STORAGE_KEY, selectedCategory);
+  }, [selectedCategory]);
 
   const filteredWork =
     selectedCategory === "all"
