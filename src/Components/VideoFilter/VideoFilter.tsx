@@ -25,7 +25,7 @@ export default function VideoFilter({
 
   // Créer la liste des catégories avec "All" en premier
   const categories = [
-    { value: "all", label: "All" },
+    { value: "all", label: "all" },
     ...uniqueCategories.map((cat) => ({
       value: cat,
       label: formatCategoryLabel(cat),
