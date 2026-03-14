@@ -228,6 +228,7 @@ export const work = [
      ],
     category: "music-video",
    },
+    {
   id: 23,
     title: "Diluvian - LABYRINTH (Official Music Video)",
     url: "https://www.youtube.com/embed/3Sk3dbiOhnI?si=NyHXQMtJl7-QldAe",
